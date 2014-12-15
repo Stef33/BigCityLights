@@ -1,0 +1,93 @@
+body
+{
+    font-size: 0.8em;
+}
+
+
+
+.content
+{
+    max-width: 640px;
+}
+
+
+
+.video
+{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar
+{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#sam_diagram
+{
+    width: 640px;
+}
+
+.person
+{
+    clear: both;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    overflow: visible;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.partnerslogo img,
+.clientslogo img
+{
+    width: 150px;
+}
+
+.leftform
+{
+    float: none;
+    width: 100%;
+}
+
+
+.rightform
+{
+    float: none;
+    width: 100%;
+}
+
+
+input,
+textarea,
+select
+{
+    width: 90%;
+}
+
+.leftform input,
+.leftform select
+{
+    width: 50%;
+}
+
+
+.ui-dialog
+{
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+

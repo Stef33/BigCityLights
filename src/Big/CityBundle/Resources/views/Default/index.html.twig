@@ -1,0 +1,28 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+    
+    {% block header %}
+        {% include "BigCityBundle:Default:header.html.twig" %}
+    {% endblock %}
+    
+    
+    <section id="wrapper">	
+    
+            {% block  accueil %}
+                {% include "BigCityBundle:Default:accueil.html.twig" %}
+            {% endblock %}
+        
+       
+            {% block  galerie %}
+                {% include "BigCityBundle:Default:galerie.html.twig" %}
+            {% endblock %}
+        
+        
+            {% block  contact %}
+                {% include "BigCityBundle:Default:contact.html.twig" %}
+            {% endblock %}
+            
+    </section>
+{% endblock %}

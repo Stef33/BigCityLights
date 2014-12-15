@@ -1,0 +1,306 @@
+html
+{
+   
+}
+
+body
+{
+    color: #ffffff;
+}
+
+*
+{
+    font-family: HelveticaNeue-light,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.field-error
+{
+    background-image: url("../images/invalid_field.gif");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+}
+
+.news-content
+{
+    display: none;
+}
+
+.arrow li
+{
+    background: url("../images/SAM_Puce.png") no-repeat scroll left top transparent;
+    list-style: none outside none;
+    margin: 5px;
+    padding-left: 16px;
+}
+
+#header
+{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#header #top
+{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#header .shortnav
+{
+    display: none;
+}
+
+#header .navigation
+{
+    float: right;
+    list-style: none outside none;
+    text-align: right;
+    width: 80%;    
+}
+
+#header a img
+{
+   vertical-align: baseline;
+}
+
+
+#sitetitle
+{
+    display: inline-block;
+    float: left;
+    line-height: 80px;
+    width: 20%;
+    color: #696969;
+    text-decoration: none;
+    background-size: 100%;
+    max-width: 111px;
+    max-height: 80px;
+    min-width: 96px;
+    min-height: 31px;
+}
+
+#sitetitle:hover
+{
+    
+    color: #FFFFFF;
+}
+
+#header nav ul
+{
+    
+}
+
+
+
+#header ul li
+{
+    display: inline;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 18px;
+    vertical-align: middle;
+}
+
+#header ul li a
+{
+    color: #696969;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#header ul li a:hover
+{
+    color: #FFFFFF;
+}
+
+
+#wrapper
+{
+    margin: 0 auto;
+    padding-top: 80px;
+    width: 100%;
+}
+
+#slide1, #slide2, #slide3 {
+    height: 1000px;
+    padding-top: 100px;
+}
+
+#slide1
+{
+    background: url(../images/fonds/pont.jpg) no-repeat fixed center 0 transparent;
+}
+
+#slide2
+{
+    background: url(../images/fonds/autoroute.jpg) no-repeat fixed center 0 transparent;
+}
+
+#slide3
+{
+    background: url(../images/fonds/flou.jpg) no-repeat fixed center 0 transparent;
+}
+
+
+
+#slide1 .slide-inside {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 80px;
+}
+
+.jingle
+{
+    text-align: center;
+}
+
+#slide2 .slide-inside {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#slide3 .slide-inside
+{
+  color: #808080;
+  text-align:center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slide_inside {
+  margin:0 auto;
+  width:1000px;
+}
+
+
+.content
+{
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.slide
+{
+    clear: both;
+    
+}
+
+.leading
+{
+    background: url("../images/slide-leading-background.png") repeat scroll 0 0 #EEEEEE;
+}
+
+.video a img
+{
+    height: 90px;
+    width: 150px;
+}
+
+.video a img span
+{
+   caption-side: bottom
+}
+
+.lv-overlay
+{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+form
+{
+    position: relative;
+    text-align: justify;
+    font-family: HelveticaNeue-light, Helvetica, Arial, sans-serif;
+    
+}
+
+form p
+{
+    text-align: center;    
+}
+
+form .bouton
+{
+    text-align: center;
+}
+
+input, textarea, select
+{
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 2px #696969 inset;
+    color: #58585A;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 3px;
+    background-color: #FFFFFF;
+}
+
+#reset,
+#submit
+{
+    
+    width: 200px;
+    cursor: pointer;
+}
+
+
+#name
+{
+    visibility: hidden;
+    display: none;
+}
+
+
+#footer
+{
+    display: inline-block;
+    color: #808080;
+}
+
+#footer ul
+{
+    list-style: none outside none;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+
+#footer li
+{
+    float: left;
+    font-size: 0.8em;
+    margin-top: 50px;
+    
+}
+
+
+#footer ul li a
+{
+    color: #808080;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+
+.ui-dialog
+{
+    width: 900px;
+}

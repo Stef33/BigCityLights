@@ -1,0 +1,46 @@
+<div id="contact"> 
+    <div id="slide3">
+        <div class="content slide-inside slide">
+            <form id="signupform" method="post" novalidate="novalidate" action="{{ path('big_city_send') }}">
+                    
+                    <div class="jingle">Contactez-nous !</div>
+                    
+                 <table>   
+                    <tr>
+                        <td>Nom:</td>
+                        <td><input id="nom" name="nom" type="text" value="Nom" required="required" onblur="if(this.value==''){this.value='Nom';}" onfocus="if(this.value=='Nom'){this.value='';}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Prenom:</td>
+                        <td><input id="prenom" name="prenom" type="text" value="Prenom" required="required" onblur="if(this.value==''){this.value='Prenom';}" onfocus="if(this.value=='Prenom'){this.value='';}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone:</td>
+                        <td><input id="phone" name="phone" type="tel" value="Telephone" required="required" onblur="if(this.value==''){this.value='Telephone';}" onfocus="if(this.value=='Telephone'){this.value='';}"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input id="email" name="email" type="email" value="Email" required="required" onblur="if(this.value==''){this.value='Email';}" onfocus="if(this.value=='Email'){this.value='';}"/></td>	
+                    </tr>
+                    <tr>
+                        <td>Message:</td>
+                        <td><textarea id="message" name="message" required="required" onblur="if(this.value==''){this.value='Message';}" onfocus="if(this.value=='Message'){this.value='';}" rows="8" cols="45">Message</textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input id="name" name="name" type="hidden" value=""/></td>
+                    </tr>
+                </table>
+                <div class="bouton">
+                    <input id="submit" type="submit" name="submit" value="Envoyer" onclick="submitContactForm(); return false;"/>
+                    <input id="reset" type="reset" value="Effacer"/>
+                </div>
+                
+                {% block footer %}	
+                    {% include "BigCityBundle:Default:footer.html.twig" %}
+                {% endblock %}
+                
+                <div class="clear"></div>
+            </form>   
+        </div>
+    </div>
+</div>

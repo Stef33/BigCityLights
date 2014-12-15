@@ -1,0 +1,139 @@
+.content
+{
+    max-width: 320px;
+}
+
+.slide
+{
+    overflow: hidden;
+}
+
+#wrapper
+{
+    padding-top: 40px;
+}
+
+#header
+{
+    height: 40px;
+}
+
+#header #top
+{
+    max-width: 320px;
+    max-height:31px;
+}
+
+#header .navigation
+{
+    display: inline-block;
+    font-size: 12px;
+    max-height: 40px;
+    width: 210px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+#header .shortnav
+{
+    display: none;
+}
+
+#header ul li
+{
+    height: 40px;
+    line-height: 20px;
+    margin: 2px;
+    padding:1px;
+    width: 20px;
+}
+
+#header .shortnav select
+{
+    margin:10px 0 0;
+    width: 120px;
+}
+
+#header a img
+{
+    vertical-align: baseline;
+}
+
+
+#sitetitle
+{
+    line-height: 40px;
+    max-height: 31px;
+    max-width: 96px;
+}
+
+#slide1, #slide2, #slide3 {
+    height: 250px;
+    padding-top: 20px;
+}
+
+#slide1
+{
+    background: none;
+    background-position:35px;
+}
+
+#slide2
+{
+    background: none;
+    margin-top: 250px;
+}
+
+#slide3
+{
+    background: none;
+    margin-top: 120px;
+}
+
+#slide1 .slide-inside {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 0px;
+}
+
+
+.video a img
+{
+    height: 50px;
+    width: 100px;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+
+
+#reset,
+#submit
+{
+    
+    width: 100px;
+    cursor: pointer;
+}
+
+#submit
+{
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

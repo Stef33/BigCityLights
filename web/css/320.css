@@ -1,0 +1,132 @@
+.content
+{
+    max-width: 320px;
+}
+
+.slide
+{
+    overflow: hidden;
+}
+
+#wrapper
+{
+    padding-top: 40px;
+}
+
+#header
+{
+    height: 40px;
+}
+
+#header #top
+{
+    max-width: 320px;
+}
+
+#header .navigation
+{
+    display: none;
+}
+
+#header .shortnav
+{
+    display: inline-block;
+}
+
+#header ul li
+{
+    height: 40px;
+    line-height: 40px;
+}
+
+#header .shortnav select
+{
+    margin:10px 0 0;
+    width: 120px;
+}
+
+#header a img
+{
+    vertical-align: baseline;
+}
+
+
+#sitetitle
+{
+    max-height: 31px;
+    max-width: 96px;
+}
+
+.video
+{
+    height: auto;
+    width: 320px;
+}
+
+.video video
+{
+    height: auto;
+    width: 320px;
+}
+
+
+#sam_diagram
+{
+    width: 320px;
+}
+
+.person
+{
+    margin: 10px auto;
+    width: 320px;
+}
+
+.person .picture
+{
+    width: 120;
+}
+
+.person .description
+{
+    margin-left: 45px;
+    width: 180px;
+}
+
+
+
+
+.leftform input,
+.leftform select
+{
+   width: 80%; 
+}
+
+input,
+textarea,
+select
+{
+    width: 80%;
+}
+
+.ui-dialog
+{
+    max-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

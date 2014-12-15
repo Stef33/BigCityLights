@@ -1,0 +1,7 @@
+parameters:
+#    big_city.example.class: Big\CityBundle\Example
+
+services:
+#    big_city.example:
+#        class: %big_city.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,9 @@
+big_city_homepage:
+    pattern:  /
+    defaults: { _controller: BigCityBundle:Default:index }
+
+big_city_send:
+    pattern: /sendcontact
+    defaults: { _controller: BigCityBundle:Default:sendContact }
+    requirements:
+        -method: POST

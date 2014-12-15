@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Ethnies Cités - Le site de la diversité urbaine{% endblock %}</title>
+        <!--[if lt IE 9]>
+        	<scirpt src="http://html5shim.googlelecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('bundles/bigcity/css/style.css') }}" type="text/css" media="screen"/>
+            <link rel="stylesheet" href="{{ asset('bundles/bigcity/css/640.css') }}" type="text/css" media="screen and (max-width: 999px)"/>
+            <link rel="stylesheet" href="{{ asset('bundles/bigcity/css/320.css') }}" type="text/css" media="screen and (max-width: 639px)"/>
+            <link rel="stylesheet" href="{{ asset('bundles/bigcity/css/colorbox.css')}}"/>
+            <link rel="stylesheet" href="{{ asset('bundles/bigcity/css/lightview/lightview.css') }}" type="text/css"/>
+        {% endblock %}
+        {% block javascripts %}
+            <!--[if lt IE 9]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+            <![endif]-->
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery-1.9.1.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/swfobject.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/spinners/spinners.min.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/lightview/lightview.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery-migrate-1.1.1.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery-ui-1.10.1.custom.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery.scrollTo-1.4.3.1.min.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery.parallax-1.1.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery.scrollorama.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery.easing.1.3.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery.scrolldeck.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery.colorbox.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('bundles/bigcity/js/jquery.validate.js') }}"></script>
+            <script type="text/javascript">
+
+            $(document).ready(function(){
+                    
+                    //.parallax(xPosition, adjuster, inertia, outerHeight) 
+                    //xPosition - Position horizontale de l'élément (css)
+                    //adjuster - La position Y de départ
+                    //inertia - Vitesse en fonction du Scroll. Exemple: 0.1 est 1/10 ème de la vitesse du scroll. 2 = deux fois la vitesse du scroll.
+                    //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+                        $('#slide1').parallax("center", 0, 0.1, true);
+                        $('#slide2').parallax("center", 1200, 0.1, true);
+                        $('#slide3').parallax("center", 2400, 0.1, true);
+                    });
+            </script>
+            <script type="text/javascript">
+            
+            $(document).ready(function() {
+                var deck = new $.scrolldeck({
+                buttons: '.nav-button',
+                slides: '.slide',
+                duration: 600,
+                easing: 'easeInOutExpo',
+                offset: -80
+                              
+                });
+                
+            $('#SelectMenu').on('change', function(){
+                var slide = $('#SelectMenu option:selected').val()+'_but';
+                $(slide).click();
+                });
+            });
+            
+            </script>
+
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+            
+            
+        {% endblock %}
+        
+    </body>
+</html>
